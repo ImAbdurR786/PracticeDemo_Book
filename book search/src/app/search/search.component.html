@@ -1,0 +1,46 @@
+
+<form #searchForm ="ngForm" class="from" (ngSubmit)="search(searchForm.value)" class="form">
+  <div class="form-group">
+    <label>Search Book: </label>
+     <select value="g" name="genre1" class="form-control" ngModel required>
+                <option value=" ">select the genre</option>
+                <option *ngFor="let g of genre1" >{{g}}</option>
+                  </select><br>
+    
+    <div class="row">
+      <div class="col-xs-4">
+         <input type="submit" class="btn btn-success" value="search book" >
+      
+        </div>
+        
+      </div>
+    </div>  
+  </form>
+
+  <table class="table table-hover">
+    <caption>Books</caption>
+    
+  <tr><th>Code</th><th>Title</th><th>Author</th><th>genre</th></tr>
+  
+      <tr *ngFor="let book of arr"><td>{{book.code}}</td>
+        <td>{{book.name}}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.genre}}</td>
+      </tr>
+  
+  </table>
+  
+<form #searchForm1 ="ngForm" class="from" (ngSubmit)="search1(searchForm1.value)" class="form">
+  <div class="form-group">
+    Code: <input type="number" [(ngModel)]="this.code" name="code" ngModel>
+    
+    <div class="row">
+      <div class="col-xs-4">
+         <input type="submit" class="btn btn-success" value="search book" >
+      
+        </div>
+        
+      </div>
+    </div>  
+  </form>
+

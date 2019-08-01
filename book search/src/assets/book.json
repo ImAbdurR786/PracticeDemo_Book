@@ -1,0 +1,52 @@
+[
+
+    {
+        "id":1,
+        "name": "The great Gatsby",
+        "code": "1001",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Novel"
+      },
+      {
+        "id":2,
+        "name": "To Kill a Mockingbird",
+        "code": "1002",
+        "author": "Harper Lee",
+        "genre": "Novel"
+      },
+      {
+        "id":3,
+        "name": "Crazy Rich Asians",
+        "code": "1003",
+        "author": "Kevin Kwan",
+        "genre": "Novel"
+      },
+      {
+        "id":4,
+        "name": "House of Leaves",
+        "code": "1004",
+        "author": "Mark Z. Danielewski",
+        "genre": "horror"
+      },
+      {
+        "id":5,
+        "name": "The Alchemist",
+        "code": "1005",
+        "author": "Paulo Coelho",
+        "genre": "drama"
+      },
+      {
+        "id":6,
+        "name": "Brave New World",
+        "code": "1006",
+        "author": "Aldous Huxley",
+        "genre": "sci-fi"
+      },
+      {
+        "id":7,
+        "name": "thytht ",
+        "code": "1007",
+        "author": "Aldous Huxley",
+        "genre": "sci-fi"
+      }
+]
